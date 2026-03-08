@@ -73,6 +73,15 @@ Thank you for your time.`
           </p>
         </header>
 
+        <section className="mb-10 border border-neutral-900 rounded-lg p-4 bg-neutral-950">
+          <h2 className="text-sm uppercase tracking-[0.18em] text-neutral-500 mb-3">How it works</h2>
+          <ol className="text-sm text-neutral-300 space-y-2 list-decimal list-inside">
+            <li>Search by CPT code or procedure name.</li>
+            <li>See the Medicare benchmark and a negotiation target.</li>
+            <li>Copy the script and send it to your provider billing office.</li>
+          </ol>
+        </section>
+
         <form onSubmit={handleSearch} className="mb-12">
           <div className="relative">
             <input
@@ -115,7 +124,7 @@ Thank you for your time.`
               </div>
               <div className="mt-6 pt-6 border-t border-neutral-800">
                 <p className="text-sm text-neutral-500 uppercase tracking-wide mb-1">Suggested Negotiation Amount</p>
-                <p className="text-3xl font-semibold text-emerald-400">${suggestedPrice}</p>
+                <p className="text-3xl font-semibold text-white">${suggestedPrice}</p>
                 <p className="text-xs text-neutral-600 mt-2">120% of Medicare allowable rate</p>
               </div>
             </div>
